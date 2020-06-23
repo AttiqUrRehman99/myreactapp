@@ -1,15 +1,15 @@
 import React from "react";
 import "./App.css";
-import Dinner from "./Dinner";
+import Profile from "./Profile";
 
 function App() {
   return (
     <div className="App">
-      <profile name="Muhammad AttiQ"> </profile>
+      <Dinner name="Muhammad AttiQ"> </Dinner>
       <hr />
-      <profile education="Graduation"> </profile>
+      <Dinner education="Graduation"> </Dinner>
       <hr />
-      <profile jobtype="IT Specialist"> </profile>
+      <Dinner jobtype="IT Specialist"> </Dinner>
     </div>
   );
 }
