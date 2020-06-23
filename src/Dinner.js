@@ -1,7 +1,7 @@
 import React from "react";
 
 function Dinner(props) {
-  return <Dish> We are serving {props.name} Today. </Dish>;
+  return <h1>{props.name}</h1>;
 }
 
 export default Dinner;
