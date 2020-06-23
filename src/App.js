@@ -5,11 +5,24 @@ import Profile from "./Profile";
 function App() {
   return (
     <div className="App">
-      <Profile name="Muhammad AttiQ"> </Profile>
+      <Profile
+        name="Muhammad AttiQ"
+        education="Graduation"
+        jobtype="IT Specialist"
+      />
+
       <hr />
-      <Profile education="Graduation"> </Profile>
+      <Profile
+        name="Muhammad AttiQ"
+        education="Graduation"
+        jobtype="IT Specialist"
+      />
       <hr />
-      <Profile jobtype="IT Specialist"> </Profile>
+      <Profile
+        name="Muhammad AttiQ"
+        education="Graduation"
+        jobtype="IT Specialist"
+      />
     </div>
   );
 }
