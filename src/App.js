@@ -5,11 +5,11 @@ import Profile from "./Profile";
 function App() {
   return (
     <div className="App">
-      <Dinner name="Muhammad AttiQ"> </Dinner>
+      <Profile name="Muhammad AttiQ"> </Profile>
       <hr />
-      <Dinner education="Graduation"> </Dinner>
+      <Profile education="Graduation"> </Profile>
       <hr />
-      <Dinner jobtype="IT Specialist"> </Dinner>
+      <Profile jobtype="IT Specialist"> </Profile>
     </div>
   );
 }
